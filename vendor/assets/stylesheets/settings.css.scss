@@ -59,9 +59,9 @@ website:   	http://www.themepunch.com
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url(shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
-.tp-bannershadow.tp-shadow2 {	background:url(shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
-.tp-bannershadow.tp-shadow3 {	background:url(shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow1 {	background:image-url("shadow1.png") no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow2 {	background:image-url("shadow2.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow3 {	background:image-url("shadow3.png") no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 
 
 /********************************
@@ -263,10 +263,10 @@ website:   	http://www.themepunch.com
 .button				{	padding:6px 13px 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; height:30px;
 						cursor:pointer;
 						color:#fff !important; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) !important; font-size:15px; line-height:45px !important;
-						background:url(../images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
+						background:image-url("../images/gradient/g30.png") repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
 					}
 
-.button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(../images/gradient/g40.png) repeat-x top;}
+.button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:image-url("../images/gradient/g40.png") repeat-x top;}
 
 
 .purchase:hover,
@@ -333,17 +333,17 @@ website:   	http://www.themepunch.com
 .tp-bullets.simplebullets					{ 	bottom:10px;}
 
 
-.tp-bullets.simplebullets.navbar				{ bottom:-20px; background:url(navigdots_bgtile.png); height:35px; padding:0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;margin-top:-17px;}
+.tp-bullets.simplebullets.navbar				{ bottom:-20px; background:image-url("navigdots_bgtile.png"); height:35px; padding:0px 0px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;margin-top:-17px;}
 
-.tp-bullets.simplebullets .bullet			{	cursor:pointer; position:relative;	background:url(bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
+.tp-bullets.simplebullets .bullet			{	cursor:pointer; position:relative;	background:image-url("bullets.png") no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
 .tp-bullets.simplebullets .bullet.last		{	margin-right:0px;}
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square .bullet			{	cursor:pointer; position:relative;	background:url(bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+.tp-bullets.simplebullets.square .bullet			{	cursor:pointer; position:relative;	background:image-url("bullets2.png") no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
 .tp-bullets.simplebullets.square .bullet.last		{	margin-right:0px;}
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar .bullet		{	cursor:pointer; position:relative;	background:url(navigdots.png) no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar .bullet		{	cursor:pointer; position:relative;	background:image-url("navigdots.png") no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:30px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:30px !important;}
 
@@ -358,19 +358,19 @@ website:   	http://www.themepunch.com
 **************************************/
 
 
-.tp-leftarrow						{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_left.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
-.tp-rightarrow						{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_right.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
+.tp-leftarrow						{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_left.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
+.tp-rightarrow						{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_right.png") no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
 
-.tp-leftarrow.navbar				{	z-index:100;cursor:pointer; position:relative;	background:url(arrowleft.png) no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:-20px; margin-top:-8px;}
-.tp-rightarrow.navbar				{	z-index:100;cursor:pointer; position:relative;	background:url(arrowright.png) no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:-20px; margin-top:-8px;}
+.tp-leftarrow.navbar				{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrowleft.png") no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:-20px; margin-top:-8px;}
+.tp-rightarrow.navbar				{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrowright.png") no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:-20px; margin-top:-8px;}
 .tp-leftarrow.navbar.thumbswitharrow	{	margin-right:10px; }
 .tp-rightarrow.navbar.thumbswitharrow	{	margin-left:0px; }
 
-.tp-leftarrow.square				{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
-.tp-rightarrow.square				{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
+.tp-leftarrow.square				{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_left2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
+.tp-rightarrow.square				{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_right2.png") no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
-.tp-leftarrow.large					{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_large_left.png) no-Repeat top left;	width:46px;	height:46px;  margin-left:20px; margin-top:-23px; }
-.tp-rightarrow.large				{	z-index:100;cursor:pointer; position:relative;	background:url(arrow_large_right.png) no-Repeat top left;	width:46px;	height:46px;  margin-left:-20px; margin-top:-23px; }
+.tp-leftarrow.large					{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_large_left.png") no-Repeat top left;	width:46px;	height:46px;  margin-left:20px; margin-top:-23px; }
+.tp-rightarrow.large				{	z-index:100;cursor:pointer; position:relative;	background:image-url("arrow_large_right.png") no-Repeat top left;	width:46px;	height:46px;  margin-left:-20px; margin-top:-23px; }
 
 .tp-leftarrow:hover,
 .tp-rightarrow:hover {	background-position:bottom left; }
@@ -425,7 +425,7 @@ website:   	http://www.themepunch.com
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(timer.png);position:absolute; z-index:200;}
+.tp-bannertimer								{	width:100%; height:10px; background:image-url("timer.png");position:absolute; z-index:200;}
 .tp-bannertimer.tp-bottom					{	bottom:0px !important;height:5px;}
 
 
@@ -487,7 +487,7 @@ website:   	http://www.themepunch.com
 	visibility:hidden;
 }
 /*  CAPTION SLIDELINK   **/
-.caption.slidelink a div {	width:10000px; height:10000px;  background:url(coloredbg.png) repeat;}
+.caption.slidelink a div {	width:10000px; height:10000px;  background:image-url("coloredbg.png") repeat;}
 
 .tp-loader 	{	background:image-url("loader.gif") no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;
