@@ -489,7 +489,7 @@ website:   	http://www.themepunch.com
 /*  CAPTION SLIDELINK   **/
 .caption.slidelink a div {	width:10000px; height:10000px;  background:url(coloredbg.png) repeat;}
 
-.tp-loader 	{	background:url(loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
+.tp-loader 	{	background:image-url("loader.gif") no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;
 				-moz-border-radius: 3px;
 				-webkit-border-radius: 3px;
