@@ -1,7 +1,2 @@
 require "rs/plugin/version"
-
-module Rs
-  module Plugin
-    # Your code goes here...
-  end
-end
+require "rs/plugin/engine" if defined?(::Rails)

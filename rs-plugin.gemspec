@@ -8,14 +8,12 @@ Gem::Specification.new do |spec|
   spec.version       = Rs::Plugin::VERSION
   spec.authors       = ["Christopher Fernández"]
   spec.email         = ["fernandez.chl@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{rs-plugin gem}
+  spec.summary       = %q{rs-plugin gem}
   spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
